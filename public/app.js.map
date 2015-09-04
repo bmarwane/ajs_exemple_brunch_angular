@@ -1,0 +1,1 @@
+{"version":3,"sources":["app/application.js"],"names":[],"mappings":"AAAA;AACA;AACA;AACA;AACA;AACA","file":"public/app.js","sourcesContent":["angular.module('myApp', []);\n\nangular.module('myApp').controller('FirstController', function(){\n  console.log('Helloo la bouse');\n});\n"]}

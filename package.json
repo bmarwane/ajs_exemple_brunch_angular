@@ -1,0 +1,12 @@
+{
+  "name": "traduction_app",
+  "version": "1.0.0",
+  "description": "to handle traductions for TOM",
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "brunch": "^1.8.5",
+    "javascript-brunch": "^1.7.1",
+    "sass-brunch": "^1.8.11"
+  }
+}
