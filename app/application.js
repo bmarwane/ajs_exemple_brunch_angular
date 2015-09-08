@@ -1,5 +1,11 @@
-angular.module('myApp', []);
+angular.module('myApp', ['ngRoute', 'templates']);
 
-angular.module('myApp').controller('FirstController', function(){
-  console.log('Helloo la bouse');
+angular.module('myApp').config(function($routeProvider){
+  $routeProvider.when('/', {
+    templateUrl: 'app/views/page.html',
+    controller: 'pageController'
+  })
+  .otherwise({
+    redirectTo: '/'
+  });
 });

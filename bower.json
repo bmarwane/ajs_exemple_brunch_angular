@@ -1,9 +1,6 @@
 {
   "name": "myapp",
   "version": "0.0.0",
-  "authors": [
-    "Marwane <mbelahcen@octo.com>"
-  ],
   "license": "MIT",
   "ignore": [
     "**/.*",
@@ -13,6 +10,7 @@
     "tests"
   ],
   "dependencies": {
-    "angular": "~1.4.5"
+    "angular": "~1.4.5",
+    "angular-route": "~1.4.5"
   }
 }

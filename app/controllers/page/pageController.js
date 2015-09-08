@@ -1,15 +1,3 @@
-angular.module('myApp', ['ngRoute', 'templates']);
-
-angular.module('myApp').config(function($routeProvider){
-  $routeProvider.when('/', {
-    templateUrl: 'app/views/page.html',
-    controller: 'pageController'
-  })
-  .otherwise({
-    redirectTo: '/'
-  });
-});
-
 'use strict';
 
 angular.module('myApp').controller('pageController', function($scope){
@@ -25,6 +13,3 @@ angular.module('myApp').controller('pageController', function($scope){
     }
   };
 });
-
-
-//# sourceMappingURL=app.js.map

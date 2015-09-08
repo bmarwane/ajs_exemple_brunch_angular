@@ -1,0 +1,22 @@
+<div class="row">
+  <div class="col-md-12">
+    <h1>Prise de notes</h1>
+
+    <form ng-submit="addNote()">
+      <input type="text" class="form-control" ng-model="noteInput" />
+    </form>
+
+  </div>
+</div>
+
+<br/>
+
+<div class="row">
+  <div class="col-md-12">
+
+      <ul class="list-group">
+        <li class="list-group-item" ng-repeat="note in noteList">{{note.text}}</li>
+      </ul>
+
+  </div>
+</div>

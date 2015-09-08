@@ -1,12 +1,14 @@
 {
-  "name": "traduction_app",
+  "name": "simpleDemo",
   "version": "1.0.0",
-  "description": "to handle traductions for TOM",
+  "description": "Simple Demo using Brunch AngularJS et Bootstrap",
   "author": "",
   "license": "ISC",
   "devDependencies": {
-    "brunch": "^1.8.5",
+    "angularjs-templates-brunch": "^1.0.0",
+      "brunch": "^1.8.5",
+    "fb-flo-brunch": "^1.7.22",
     "javascript-brunch": "^1.7.1",
-    "sass-brunch": "^1.8.11"
+    "less-brunch": "^1.8.1"
   }
 }
